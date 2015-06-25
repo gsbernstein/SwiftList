@@ -1,10 +1,6 @@
 # SwiftList
 A simple swift class for formatting lists of strings. Because I needed an Oxford comma.
 
-So, you have an Array of strings. Now what?
-
-Listify it!
-
 ##Installation
 Just add SwiftList.swift to your project.
 
