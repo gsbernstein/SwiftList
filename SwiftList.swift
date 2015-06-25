@@ -15,7 +15,7 @@ class SwiftList {
         case AllAnds
     }
     
-    class func listify(#array: [String], listType: ListType, andType: String?) -> String {
+    class func listify(#array: [String], listType: ListType, andString: String?) -> String {
         
         switch listType {
         case .CommasOnly:
