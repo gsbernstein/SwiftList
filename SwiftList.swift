@@ -7,15 +7,15 @@
 
 import Foundation
 
-class SwiftList {
+public class SwiftList {
     
-    enum ListType {
+    private enum ListType {
         case CommasOnly
         case OxfordComma
         case AllAnds
     }
     
-    class func listify(#array: [String], listType: ListType, andString: String?) -> String {
+    private class func listify(#array: [String], listType: ListType, andString: String?) -> String {
         
         switch listType {
         case .CommasOnly:
