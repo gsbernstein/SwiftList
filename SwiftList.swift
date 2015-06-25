@@ -9,13 +9,13 @@ import Foundation
 
 public class SwiftList {
     
-    private enum ListType {
+    enum ListType {
         case CommasOnly
         case OxfordComma
         case AllAnds
     }
     
-    private class func listify(#array: [String], listType: ListType, andString: String?) -> String {
+    class func listify(#array: [String], listType: ListType, andString: String?) -> String {
         
         switch listType {
         case .CommasOnly:
