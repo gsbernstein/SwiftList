@@ -33,3 +33,7 @@ List types are defined by a `ListType` enum within the class. There are three li
   * "One, Two, Three, and Four"
 * `.AllAnds` — performs a `join` with your specified `andString`
   * "One and Two and Three and Four"
+
+
+## TODO
+- [ ] Strings are great, but what about other types? Genericize it.
