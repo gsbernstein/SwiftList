@@ -1,5 +1,5 @@
 # SwiftList
-A simple swift class for formatting lists of strings.
+A simple swift class for formatting lists of strings. Because I needed an Oxford comma.
 
 So, you have an Array of strings. Now what?
 
