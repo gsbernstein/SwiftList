@@ -22,15 +22,15 @@ public class SwiftList {
             return join(", ", array)
         case .OxfordComma:
             var newArray = array
-            var allButLast = newArray.removeLast()
-            var commas = join(", ", newArray)
+            var lastItem = newArray.removeLast()
+            var allButLast = join(", ", newArray)
             
             if array.count < 2 {
                 return array.first!
             } else if array.count < 3 {
                 return join(" \(andType!) ", array)
             } else {
-                return join(", \(andType!) ", [commas, allButLast])
+                return join(", \(andType!) ", [allButLast, lastItem])
             }
             
         case .AllAnds:
